@@ -1,0 +1,54 @@
+{
+  "os_list": [
+    {
+      "name": "EVE-OS 14.5.0-lts (x86 64-bit)",
+      "description": "EVE RAW installer image for amd64 (all platforms)",
+      "icon": "https://raw.githubusercontent.com/rene/eve-releases/refs/heads/main/imgs/eve.png",
+      "url": "https://github.com/lf-edge/eve/releases/download/14.5.0-lts/amd64.kvm.generic.installer.raw",
+      "extract_size": 620756992,
+      "extract_sha256": "4d2762862c2f52b8e831c48c5220b916d24011006fae5589f10bb455c81bb502",
+      "image_download_size": 620756992,
+      "release_date": "2025-06-18",
+      "init_format": "systemd",
+      "devices": [
+        "amd64"
+      ]
+    },
+    {
+      "name": "EVE-OS 14.5.0-lts for NVIDIA Jetson Platform",
+      "description": "EVE images for NVIDIA Jetson Platform",
+      "icon": "https://raw.githubusercontent.com/rene/eve-releases/refs/heads/main/imgs/eve-nvidia.png",
+	  "random": false,
+	  "subitems": [
+		{
+		 "name": "EVE-OS 14.5.0-lts - Jetpack 5.1.3",
+		 "description": "EVE RAW installer image for Jetson Xavier devices",
+		 "icon": "https://raw.githubusercontent.com/rene/eve-releases/refs/heads/main/imgs/eve-nvidia.png",
+		 "url": "https://github.com/lf-edge/eve/releases/download/14.5.0-lts/arm64.kvm.nvidia-jp5.installer.raw",
+		 "extract_size": 943718400,
+		 "extract_sha256": "385dd91aa3bdca4132d98da3f9a7b944f4850910001d3e72d54ce237544586c5",
+		 "image_download_size": 943718400,
+		 "release_date": "2025-06-18",
+		 "init_format": "systemd",
+		 "devices": [
+		   "nvidia-jp5"
+	  	 ]
+    	},
+	    {
+		 "name": "EVE-OS 14.5.0-lts - Jetpack 6.0",
+		 "description": "EVE RAW installer image for Jetson Orin devices",
+		 "icon": "https://raw.githubusercontent.com/rene/eve-releases/refs/heads/main/imgs/eve-nvidia.png",
+		 "url": "https://github.com/lf-edge/eve/releases/download/14.5.0-lts/arm64.kvm.nvidia-jp6.installer.raw",
+		 "extract_size": 943718400,
+		 "extract_sha256": "ae29c682a881e4ba35884362dbcbdbe806143c6c710c758e6300b9718bd6fa32",
+		 "image_download_size": 943718400,
+		 "release_date": "2025-06-18",
+		 "init_format": "systemd",
+		 "devices": [
+		   "nvidia-jp6"
+	  	 ]
+    	}
+	  ]
+    }
+  ]
+}
